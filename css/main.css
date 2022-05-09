@@ -1,0 +1,280 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+*,
+*::before ::after {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+.main1 {
+  background-image: url("../img/watches.jpg");
+  background-size: 36rem;
+  background-repeat: no-repeat;
+  background-position-x: 67rem;
+  background-position-y: 3rem;
+  /* margin-left: 12rem; */
+  height: 100vh;
+  border-bottom: 2px solid #eae8ea;
+}
+
+.main1-header {
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem 14rem 0 14rem;
+}
+
+.nav-input {
+  display: flex;
+  align-items: center;
+}
+
+nav {
+  padding-right: 3rem;
+  color: #969496;
+}
+
+nav > a {
+  margin-left: 2rem;
+  text-decoration: none;
+  color: #969496;
+}
+
+nav > a:hover {
+  color: black;
+  border-bottom: 2px solid grey;
+  padding-bottom: 0.6rem;
+}
+
+input {
+  border: none;
+  border-bottom: 2px solid #bab8ba;
+  outline: none;
+}
+
+.freedom {
+  font-weight: bold;
+  font-size: 2.5rem;
+
+  margin: 7rem 0 0 14rem;
+}
+
+.line-word {
+  display: flex;
+  align-items: center;
+  column-gap: 1.5rem;
+  margin: 2rem 0 2rem 14rem;
+}
+
+.line {
+  width: 2px;
+  height: 5rem;
+  background-color: #908e90;
+}
+
+.line-word > p {
+  color: grey;
+  font-size: 0.9rem;
+}
+
+.red-div {
+  width: 8rem;
+  height: 1.9rem;
+  background-color: #e95952;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 14rem;
+}
+
+.red-div:hover {
+  background-color: #dc514d;
+}
+
+.red-div > p {
+  font-size: 0.6rem;
+  padding: 0.3rem;
+}
+
+.run-div {
+  margin: 2rem 14rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.run-heading {
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.run-explanation {
+  font-size: 0.9rem;
+  line-height: 1.4rem;
+}
+
+.three-dots {
+  display: flex;
+  column-gap: 0.6rem;
+}
+
+.red {
+  display: flex;
+  column-gap: 1rem;
+  align-items: center;
+}
+
+.red > div {
+  width: 2.5rem;
+  height: 0.1rem;
+  background-color: #e95952;
+}
+
+.red-line:hover {
+  width: 3rem;
+  cursor: pointer;
+}
+
+.red-word {
+  font-size: 0.7rem;
+  color: #e95952;
+  font-weight: bold;
+}
+
+.dot {
+  width: 0.3rem;
+  height: 0.3rem;
+  border-radius: 50%;
+  background-color: #c5c4c5;
+}
+
+.wordings-image {
+  padding: 3rem 14rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wordings > h1 {
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.line2-word2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 2rem;
+}
+
+.line2 {
+  width: 2px;
+  height: 5rem;
+  background-color: grey;
+}
+
+.word2 {
+  color: grey;
+}
+
+.red-buynow {
+  width: 6rem;
+  height: 2rem;
+  background-color: indianred;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 0.6rem;
+  margin-top: 2.5rem;
+}
+
+.red-buynow:hover {
+  background-color: #dc514d;
+}
+
+img[alt="preview"] {
+  width: 21rem;
+  height: 35rem;
+}
+
+.bottom {
+  height: 100vh;
+  background-image: url("../img/runners.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -9rem;
+  color: white;
+  width: 100vw;
+  display: flex;
+  justify-content: flex-end;
+
+  width: 100vw;
+}
+
+.bottom-wordings {
+  margin: 14rem;
+}
+
+.bottom-wordings > h1 {
+  font-weight: bold;
+}
+
+.line3-word3 {
+  display: flex;
+  align-items: center;
+  column-gap: 2rem;
+}
+
+.line3 {
+  width: 2px;
+  height: 5rem;
+  background-color: white;
+}
+
+.word3 {
+  font-size: 0.9rem;
+}
+
+.red-explore {
+  width: 9rem;
+  height: 1.9rem;
+  background-color: #d9504f;
+  font-size: 0.7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.red-explore:hover {
+  background-color: #dc514d;
+}
+
+@media (max-width: 1200px) {
+  .main1 {
+    background-image: url("../img/watches.jpg");
+    background-size: 35rem;
+    background-repeat: no-repeat;
+    background-position-x: 67rem;
+    background-position-y: 3rem;
+    /* margin-left: 12rem; */
+    height: 100vh;
+    border-bottom: 2px solid #eae8ea;
+  }
+
+  .freedom {
+    padding-left: 7rem;
+  }
+
+  .red-div {
+    margin: left 7rem;
+  }
+}
